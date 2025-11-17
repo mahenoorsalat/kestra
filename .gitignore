@@ -41,7 +41,6 @@ ui/test-report.junit.xml
 storybook-static
 
 ### Docker
-/.env
 docker-compose*.overide.yml
 docker/app/plugins/*.jar
 docker/app/kestra
@@ -59,3 +58,4 @@ core/src/main/resources/gradle.properties
 **/allure-results/*
 
 /jmh-benchmarks/src/main/resources/gradle.properties
+config.bat
